@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Article</title>
+    <style>
+        body{
+            background-color: #e7dff9;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="mb-4">Edit Article</h1>
+    <form action="/articles/edit/<%= article.id %>" method="POST">
+        <%- include('../partials/form_structure') %>
+    </form>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!-- article variable is passed from articles.js -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Article</title>
+    <style>
+        body{
+            background-color: #e7dff9;
+        }
+        textarea{
+            width: 50vw;
+            height: 15vh;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="mb-4">New Article</h1>
+    <form action="/articles" method="POST">
+        <%- include('../partials/form_structure') %>
+    </form>
+</body>
+</html>
