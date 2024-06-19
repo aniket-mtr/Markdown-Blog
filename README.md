@@ -6,7 +6,7 @@ A web application in which the user can create new blogs and edit and delete exi
 ## Installation
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/your-repo-name.git
+   git clone https://github.com/aniket-mtr/Markdown-Blog
 2. Navigate to project directory
    ```sh
     cd your-repo-name
